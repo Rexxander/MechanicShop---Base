@@ -24,7 +24,7 @@ Console.WriteLine("=== Mechanic Shop Appointment Control ===");
 
 while (running)
 {
-    Console.WriteLine("\n========== MAIN MENU ==========");
+    Console.WriteLine("\n MAIN MENU ");
     Console.WriteLine("1. Customers");
     Console.WriteLine("2. Vehicles");
     Console.WriteLine("3. Appointments");
