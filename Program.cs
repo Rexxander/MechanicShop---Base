@@ -20,7 +20,7 @@ int nextAppointmentId = 1;
 
 bool running = true;
 
-Console.WriteLine("=== Mechanic Shop Appointment Control ===");
+Console.WriteLine(" Mechanic Shop Appointment Control ");
 
 while (running)
 {
@@ -39,7 +39,7 @@ while (running)
         {
             case 1:
                 {
-                    Console.WriteLine("\n--- CUSTOMERS ---");
+                    Console.WriteLine("\n CUSTOMERS ");
                     Console.WriteLine("1. Add Customer\n2. Search Customer\n3. Edit Customer\n4. Delete Customer\n5. List Customers\n6. Back");
                     Console.Write("Choose an option: ");
                     int customerOption = Convert.ToInt32(Console.ReadLine());
@@ -86,7 +86,6 @@ while (running)
                                 int foundCount = 0;
 
                                 Console.WriteLine($"\n{"ID",-5}{"Name",-25}{"Phone",-15}");
-                                Console.WriteLine("---------------------------------------------");
 
                                 foreach (int id in customerIds)
                                 {
@@ -184,7 +183,6 @@ while (running)
                                 }
 
                                 Console.WriteLine($"\n{"ID",-5}{"Name",-25}{"Phone",-15}");
-                                Console.WriteLine("---------------------------------------------");
 
                                 foreach (int id in customerIds)
                                 {
@@ -277,7 +275,6 @@ while (running)
                                 int foundCount = 0;
 
                                 Console.WriteLine($"\n{"ID",-5}{"Plate",-12}{"Brand",-15}{"Model",-15}{"Owner",-25}");
-                                Console.WriteLine("------------------------------------------------------------------------");
 
                                 foreach (int id in vehicleIds)
                                 {
@@ -409,7 +406,6 @@ while (running)
                                 }
 
                                 Console.WriteLine($"\n{"ID",-5}{"Plate",-12}{"Brand",-15}{"Model",-15}{"Owner",-25}");
-                                Console.WriteLine("------------------------------------------------------------------------");
 
                                 foreach (int id in vehicleIds)
                                 {
@@ -519,7 +515,6 @@ while (running)
                                 int foundCount = 0;
 
                                 Console.WriteLine($"\n{"ID",-5}{"Customer",-20}{"Plate",-12}{"Date",-13}{"Time",-8}{"Service",-25}");
-                                Console.WriteLine("-----------------------------------------------------------------------------------");
 
                                 foreach (int id in appointmentIds)
                                 {
@@ -639,7 +634,6 @@ while (running)
                                 }
 
                                 Console.WriteLine($"\n{"ID",-5}{"Customer",-20}{"Plate",-12}{"Date",-13}{"Time",-8}{"Service",-25}");
-                                Console.WriteLine("-----------------------------------------------------------------------------------");
 
                                 foreach (int id in appointmentIds)
                                 {
